@@ -1,0 +1,98 @@
+/* =============================================================================
+                    .contact-page (Contact Component)
+============================================================================= */
+
+
+.contact-page {
+	flex: 1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white;
+	background: #D3CCE3;                                               /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #E9E4F0, #D3CCE3);          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.contact-page .row:first-of-type {
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+	color: black;
+	background-color: white;
+	border: 1px solid #333;
+	border-radius: 15px;
+	overflow:hidden;
+}
+
+.contact-page .row:first-of-type .fancy-h2 {
+	color: snow;
+	margin-bottom: 25px;
+	text-align:center;
+	-webkit-text-stroke-color: violet;
+}
+
+.contact-page .row > div[class^="col"] {
+	padding: 25px !important;
+}
+
+.contact-page #avatar-img {
+	display: block;
+	width: 90%;
+	max-width: 300px;
+	margin: 0 auto 25px auto;
+	background-color: rgba(125,125,100,0.5);
+	background-image: url(../../../assets/images/halftone.png);
+	background-size: contain;
+	background-blend-mode: overlay;
+
+  /* https://css-tricks.com/tinted-images-multiple-backgrounds/
+	background:
+	linear-gradient(
+		rgba(255, 250, 240, 0.75),
+		rgba(255, 250, 240, 0.75)
+	),
+  url(halftone.png);
+	*/
+	border: 1px solid #333;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.list-group .list-group-item {
+	border-color: #61DAFB;
+}
+
+.list-group .list-group-item i {
+	position: relative;
+	top: 8px;
+	margin-right: 10px;
+	font-size: 40px;
+	line-height: 1;
+	color: #61DAFB;
+	-webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #333;
+	filter: drop-shadow(-1px 1px 1px rgba(0,0,0,0.25));
+}
+
+
+/* =============================================================================
+                              Media Queries
+============================================================================= */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

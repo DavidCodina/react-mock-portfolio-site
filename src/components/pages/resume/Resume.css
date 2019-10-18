@@ -1,0 +1,193 @@
+/* =============================================================================
+                    .resume-page (Resume Component)
+============================================================================= */
+
+
+.resume-page {
+	flex: 1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white;
+	background: #D3CCE3;                                               /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #E9E4F0, #D3CCE3);          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.resume-page .row:first-of-type {
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+	color: black;
+}
+
+.resume-page .row > div[class^="col"] {
+	padding: 25px !important;
+}
+
+
+/* =============================================================================
+                              .resume-left
+============================================================================= */
+
+
+.resume-page .resume-left {
+}
+
+.resume-page .resume-left figure {}
+
+.resume-page .resume-left img {
+	display: block;
+	width: 80%;
+  max-width: 300px;
+	margin: 0px auto;
+}
+
+.resume-page .resume-left .fancy-h4 {
+	color: snow;
+	text-align:center;
+}
+
+.resume-page .resume-left .fancy-h2 {
+	color: snow;
+	margin-bottom: 25px;
+	text-align:center;
+	-webkit-text-stroke-color: violet;
+}
+
+
+/* =============================================================================
+                              .resume-right
+============================================================================= */
+
+
+.resume-page .resume-right {
+	min-height: 600px;
+	color:white;
+	background-color: #27221F;
+	border: 1px solid black;
+	border-radius: 15px;
+	overflow:hidden;
+}
+
+.resume-page .resume-right .fancy-h2 {
+	margin-bottom: 25px;
+}
+
+.resume-page .resume-right .fancy-hr {
+	border-color: violet;
+}
+
+.resume-page .resume-right .flex-container {
+  display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 25px;
+}
+
+.resume-page .resume-right .flex-container > div:nth-of-type(1){
+	flex: 1 1 30%;
+	min-width: 150px;
+}
+
+.resume-page .resume-right .flex-container > div:nth-of-type(2){
+	flex: 1 1 70%;
+}
+
+/* =============================================================================
+                              .progress-container
+============================================================================= */
+
+
+.progress-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.progress-title-container {
+	flex: 1 1 30%;
+	min-width: 150px;
+}
+
+.progress-bar-container {
+	flex: 1 1 70%;
+	position: relative;
+	padding: 3px;
+
+	border-radius: 15px;
+	overflow: hidden;
+
+	background-color: white;
+	border: 1px solid black;
+	box-shadow: inset  1px 1px 1px rgba(0,0,0,0.75),
+	            inset -1px -1px 1px rgba(0,0,0,0.75);
+}
+
+.progress-value-div {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 26px; /* matches height+padding of progress to center text. */
+}
+
+progress {
+	display: block; /* Removes bottom spacing. */
+  height: 20px;
+  width: 100%;
+	appearance: none;
+
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+progress::-webkit-progress-bar {
+  background-color: white;
+}
+
+progress::-webkit-progress-value {
+  background: linear-gradient(
+    45deg, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%
+  );
+  background-color: gray; /* Default */
+  background-size: 40px 20px;
+}
+
+progress.html::-webkit-progress-value       { background-color: #FF355E; }
+progress.css::-webkit-progress-value        { background-color: #FD5B78; }
+progress.sass::-webkit-progress-value       { background-color: #FF6037; }
+progress.bootstrap::-webkit-progress-value  { background-color: #FF9966; }
+progress.javascript::-webkit-progress-value { background-color: #FF9933; }
+progress.jquery::-webkit-progress-value     { background-color: #FFCC33; }
+progress.react::-webkit-progress-value      { background-color: #FFFF66; }
+progress.php::-webkit-progress-value        { background-color: #CCFF00; }
+progress.node::-webkit-progress-value       { background-color: #66FF66; }
+progress.sql::-webkit-progress-value        { background-color: #AAF0D1; }
+progress.mongo::-webkit-progress-value      { background-color: #50BFE6; }
+progress.firebase::-webkit-progress-value   { background-color: #FF6EFF; }
+progress.github::-webkit-progress-value     { background-color: #FF00CC; }
+
+
+/* =============================================================================
+                              Media Queries
+============================================================================= */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

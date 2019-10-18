@@ -1,0 +1,76 @@
+/* =============================================================================
+                          .about-page  (About Component)
+============================================================================= */
+
+
+.about-page {
+	flex: 1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white;
+	background: #D3CCE3;                                               /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #E9E4F0, #D3CCE3);          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.about-page .row:first-of-type {
+	position: relative;
+	margin: 0 auto;
+	width: 90%;
+	color: black;
+	background-color: white;
+	border: 1px solid #333;
+	border-radius: 15px;
+	overflow:hidden;
+}
+
+.about-page .row:first-of-type .fancy-h2 {
+	color: snow;
+	margin-bottom: 25px;
+	-webkit-text-stroke-color: violet;
+}
+
+.about-page .row > div[class^="col"] {
+	padding: 25px !important;
+}
+
+.about-page #avatar-img {
+	display: block;
+	width: 90%;
+	max-width: 300px;
+	margin: 0 auto 25px auto;
+	background-color: rgba(125,125,100,0.5);
+	background-image: url(../../../assets/images/halftone.png);
+	background-size: contain;
+	background-blend-mode: overlay;
+	border: 1px solid #333;
+	border-radius: 15px;
+	box-shadow: -5px 5px 5px rgba(0,0,0,0.15);
+	overflow: hidden;
+}
+
+
+/* =============================================================================
+                              Media Queries
+============================================================================= */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.about-page #avatar-img {
+		margin: 0 25px 0 auto;
+		float: left;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

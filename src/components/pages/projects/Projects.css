@@ -1,0 +1,103 @@
+/* =============================================================================
+                            .projects-page (Projects Component)
+============================================================================= */
+
+
+.projects-page {
+	flex: 1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: white;
+	background: #D3CCE3;                                               /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #E9E4F0, #D3CCE3);          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* =============================================================================
+                               .tab-container
+============================================================================= */
+
+
+.tab-container{}
+
+.tab-container .tab-buttons-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+
+.tab-container .tab-buttons-container .btn:active{
+	box-shadow: none;
+	outline: none;
+}
+
+.tab-container .btn.btn-primary {
+	color: white;
+	background-color: #61DAFB;
+	border: 1px solid rgba(0,0,0,0.15);
+	box-shadow: -2px 2px 4px rgba(0,0,0,0.15);
+}
+
+.tab-container .btn.btn-primary:active {
+	background-color: violet !important;
+}
+
+/* .tab-content is a Bootstrap class, otherwise I would use .tab-content-container. */
+.tab-container .tab-content {
+	min-height: 300px;
+}
+
+.tab-container .tab-content .tab-pane {
+  color: black;
+}
+
+.tab-container .tab-content .tab-pane .fancy-h1 {
+
+}
+
+.tab-container .tab-content .tab-pane .card-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+
+.tab-container .tab-content .tab-pane .card-container .card {
+	flex: 0 1 26%; /* 26% ensures that there will never be more thatn 3 items per 'line' */
+  min-width: 300px;
+	margin: 0 12.5px 25px 12.5px;
+	margin: 0 20px 40px 20px;
+	padding: 0;
+	border: 1px solid violet;
+	border-radius: 10px;
+	box-shadow: none;
+	overflow: hidden;
+	transition: box-shadow 0.15s linear, transform 0.15s linear;
+}
+
+.tab-container .tab-content .tab-pane .card-container .card:hover{
+	box-shadow: -5px 5px 5px rgba(0,0,0,0.15);
+	transform: scale(1.025);
+}
+
+
+/* =============================================================================
+                              Media Queries
+============================================================================= */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

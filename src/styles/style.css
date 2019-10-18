@@ -1,0 +1,127 @@
+/* This is a place for general styles (to be applied on top of bootstrap.css).
+While not modularized, more specific component styles can be found in a sibling .css file
+that accompanies many components. */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Oxygen&display=swap');
+
+
+#root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+/* Note: each page is given flex: 1, and other basic page styles in it's respective CSS file.
+Fore example:
+
+	.home-page {
+		flex: 1;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		color: white;
+		background: #D3CCE3;
+	  background: -webkit-linear-gradient(to bottom, #E9E4F0, #D3CCE3);
+	  background: linear-gradient(to bottom, #E9E4F0, #D3CCE3);
+	}
+
+
+While this could've just been written once here for all pages, it made more sense
+to put it in each file in order to alleviate potential confusion. */
+
+
+.fancy-h1 {
+  margin: 0 0 25px 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 64px;
+  font-family: Montserrat;
+  letter-spacing: 3px;
+  line-height: 1.25;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: violet;
+  text-shadow: -3px 3px 6px rgba(0,0,0,0.15);
+}
+
+.fancy-h2 {
+  color: white;
+  font-size: 40px;
+  font-family: Montserrat;
+  letter-spacing: 1px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #61DAFB;
+  text-shadow: -2px 2px 4px rgba(0,0,0,0.15);
+}
+
+.fancy-h4 {
+  color: white;
+  font-size: 24px;
+  font-family: Montserrat;
+  letter-spacing: 1px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #61DAFB;
+  text-shadow: -2px 2px 4px rgba(0,0,0,0.15);
+}
+
+.fancy-h5 {
+	color: white;
+	font-size: 24px !important;
+	-webkit-text-stroke-color: violet ;
+	-webkit-text-stroke-width: 0.5px;
+	text-shadow: -1px 1px 2px rgba(0,0,0,0.25);
+}
+
+.fancy-hr {
+	width: 50%;
+	margin: 0 auto 25px auto;
+	border-top: 8px dotted #61DAFB;
+	filter: drop-shadow(-1px 1px 1px rgba(0,0,0,0.5));
+}
+
+.vertical-line {
+	display:none;
+	position: absolute;
+	top: 12.5%;
+	left: 50%;
+	border-left: 1px solid violet;
+  height: 75%;
+  margin-left: -0.5px;
+	z-index: 10;
+}
+
+
+/* =============================================================================
+                          Modify Bootstrap Columns
+============================================================================= */
+
+
+.container-fluid .row > div[class^="col"] {
+	padding: 0;
+}
+
+
+/* ==============================================
+                  Media Queries
+=============================================== */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.vertical-line {
+		display:block;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

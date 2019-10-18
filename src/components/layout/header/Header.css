@@ -1,0 +1,37 @@
+/* =============================================================================
+                            .header (Header Component)
+============================================================================= */
+
+
+.header {
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+/* https://uigradients.com */
+.header-gradient {
+	background: #833ab4;                                                      /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* =============================================================================
+                          Media Queries
+============================================================================= */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
