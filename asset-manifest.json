@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-mock-portfolio-site/static/css/main.70c24eda.chunk.css",
+    "main.js": "/react-mock-portfolio-site/static/js/main.91bf321b.chunk.js",
+    "main.js.map": "/react-mock-portfolio-site/static/js/main.91bf321b.chunk.js.map",
+    "runtime-main.js": "/react-mock-portfolio-site/static/js/runtime-main.f3215f4c.js",
+    "runtime-main.js.map": "/react-mock-portfolio-site/static/js/runtime-main.f3215f4c.js.map",
+    "static/css/2.0624914a.chunk.css": "/react-mock-portfolio-site/static/css/2.0624914a.chunk.css",
+    "static/js/2.4bb37d25.chunk.js": "/react-mock-portfolio-site/static/js/2.4bb37d25.chunk.js",
+    "static/js/2.4bb37d25.chunk.js.map": "/react-mock-portfolio-site/static/js/2.4bb37d25.chunk.js.map",
+    "index.html": "/react-mock-portfolio-site/index.html",
+    "precache-manifest.6e2b9f2d77f4bd8a6294302dda15de5f.js": "/react-mock-portfolio-site/precache-manifest.6e2b9f2d77f4bd8a6294302dda15de5f.js",
+    "service-worker.js": "/react-mock-portfolio-site/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/react-mock-portfolio-site/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.70c24eda.chunk.css.map": "/react-mock-portfolio-site/static/css/main.70c24eda.chunk.css.map",
+    "static/media/avatar-2.png": "/react-mock-portfolio-site/static/media/avatar-2.4bd726fb.png",
+    "static/media/avatar-3.png": "/react-mock-portfolio-site/static/media/avatar-3.8201003d.png",
+    "static/media/avatar-4.png": "/react-mock-portfolio-site/static/media/avatar-4.da5405f8.png",
+    "static/media/avatar.png": "/react-mock-portfolio-site/static/media/avatar.6d10ae4e.png",
+    "static/media/Contact.css": "/react-mock-portfolio-site/static/media/halftone.e102fba9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3215f4c.js",
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.4bb37d25.chunk.js",
+    "static/css/main.70c24eda.chunk.css",
+    "static/js/main.91bf321b.chunk.js"
+  ]
+}
